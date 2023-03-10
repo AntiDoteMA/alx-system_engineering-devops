@@ -12,3 +12,7 @@
 11-directories_permissions: set execute permissions on all subdirectories of the current directory for the owner, group, and others using the command chmod -R ugo+X *
 12-directory_permissions: create a new directory named my_dir with permissions set to read, write, and execute for owner, read and execute for group, and execute-only for others using the command mkdir -m 751 my_dir
 13-change_group: change the group owner of the file hello to school using the command chgrp school hello
+100-change_owner_and_group: This command uses "chown" to change the owner to "vincent" and group to "staff" for all files in the current directory. The * is a wildcard that matches all files in the directory.
+101-symbolic_link_permissions: This command uses "chown" with the "-h" option to change the owner to "vincent" and group to "staff" for the symbolic link "_hello".
+102-if_only: This command uses "chown" with the "--from" option to change the owner of the file "hello" from "guillaume" to "betty".
+103-Star_Wars: This command uses "telnet" to connect to "towel.blinkenlights.nl", which streams the "Star Wars Episode IV: A New Hope" movie in ASCII art format in the terminal.
